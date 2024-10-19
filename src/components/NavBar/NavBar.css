@@ -1,0 +1,70 @@
+
+:root {
+    --bg-dark: '#121212';
+    --bg-gray: '#181818';
+    --bg-blue: '#A4D5EC';
+    --bg-logo: '#2C2C2C';
+    --p-color: '#504D4D';
+    --bg-logo: '#2C2C2C';
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: var(--bg-dark);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.sidebar li {
+    list-style: none;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.sidebar a {
+    color: var(--p-color);
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.active {
+    background-color: var(--bg-blue);
+    padding: 8px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+nav ul svg {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile-section svg {
+    width: 30px;
+    height: 30px;
+}
+
+.logo {
+    background-color: var(--bg-logo);
+    border-radius: 14px;
+    padding: 10px;
+    width: 55px;
+}
+

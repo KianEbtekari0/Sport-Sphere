@@ -1,0 +1,77 @@
+:root {
+    --bg-dark: #121212;
+    --bg-gray: #181818;
+    --bg-blue: #A4D5EC;
+    --bg-logo: #2C2C2C;
+    --p-color: #504D4D;
+    --bg-logo: #2C2C2C;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile button {
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: var(--bg-gray);
+    border: none;
+    color: #fff;
+    border-radius: 14px;
+}
+
+.profile a {
+    color: #fff;
+}
+
+.user-information {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.user-information h1 {
+    font-size: 16px;
+    margin-left: 74px;
+    color: #fff;
+}
+
+.user-information p {
+    color: #cacaca;
+    margin-left: 55px;
+    font-size: 13px;
+}
+
+.profile img {
+    border-radius: 14px;
+    width: 45px;
+    height: 45px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-box {
+    display: block;
+    background-color: var(--bg-gray);
+    border: 12px solid var(--bg-gray);
+    font-size: 13px;
+    background-image: url(./../../assets/search.svg);
+    padding: 2px 50px 2px 26px; 
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    color: var(--p-color);
+}
